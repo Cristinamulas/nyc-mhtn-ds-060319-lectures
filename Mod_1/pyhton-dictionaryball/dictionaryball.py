@@ -118,7 +118,7 @@ def good_practices():
         # what is 'data' at each level of the for loop block? when will we be able to iterate through a list? 
         # When would the following line of code break?
             for item in data:
-                print(data[item])
+                print(data)
 
 # print(good_practices())
 
@@ -149,11 +149,11 @@ def good_practices():
 #     names = []
 #     for location, team_stats in game_dict().items():
 #          for stats, data in team_stats.items():
-#                 if data == team_name:
-#         name = game_dict()[location][stats]
+#                 if data == 'team_name':
+#         name = game_dict()[location][stats] value
 #         names.append(name)
 #     return names
-# # print(team_names(
+
 # # def player_numbers():
 # #Build a function, player_numbers, that takes in an argument of a team name and returns a list of the jersey number's for that team
 # def player_numbers():
