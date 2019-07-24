@@ -103,3 +103,70 @@ game_dictionary = {'home': {'team_name': 'Brooklyn Nets',
                                             'blocks': 5,
                                             'slam_dunks': 12
                                         }}}}
+def game_dict():
+    return game_dictionary
+def good_practices():
+      for location, team_stats in game_dict().items():
+            
+
+    # are you ABSOLUTELY SURE what 'location' and 'team_stats' are? use pdb.set_trace() to find out!
+#         import pdb; pdb.set_trace()
+        for stats, data in team_stats.items():
+#             print(team_stats[stats])
+        # are you ABSOLUTELY SURE what 'stats' and 'data' are? use pdb.set_trace() to find out!
+#             import pdb; pdb.set_trace()
+        # what is 'data' at each level of the for loop block? when will we be able to iterate through a list? 
+        # When would the following line of code break?
+            for item in data:
+                print(data)
+
+# print(good_practices())
+
+
+# def find_stat(player_name, stat):
+#     for location, team_stats in game_dict().items():
+#         for stats, data in team_stats.items():
+#             for item in data:
+#                 if item == player_name:
+#                     return game_dict()[location][stats][item][stat]
+
+# def num_points_scored(player_name): 
+#     return find_stat(player_name, 'points')
+
+
+# def shoe_size(player_name):
+#     return find_stat(player_name, 'shoe')
+
+    
+# # print(shoe_size('Reggie Evans'))
+# def team_colors(team_name):
+#     for location, team_stats in game_dict().items():
+#         for stats, data in team_stats.items():
+#             if data == team_name:
+#                 return game_dict()[location]['colors']
+            
+# def team_names():
+#     names = []
+#     for location, team_stats in game_dict().items():
+#          for stats, data in team_stats.items():
+#                 if data == 'team_name':
+#         name = game_dict()[location][stats] value
+#         names.append(name)
+#     return names
+
+# # def player_numbers():
+# #Build a function, player_numbers, that takes in an argument of a team name and returns a list of the jersey number's for that team
+# def player_numbers():
+#     names = []
+#     for location, team_stats in game_dict().items():
+#          for stats, data in team_stats.items():
+#                 if data == team_name:
+#                     print(data)
+                
+    
+
+
+
+
+
+      
